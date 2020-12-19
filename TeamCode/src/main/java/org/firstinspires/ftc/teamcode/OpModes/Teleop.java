@@ -15,6 +15,12 @@ public class Teleop extends OpMode {
     }
 
     @Override
+    public void start() {
+        super.start();
+        robot.start();
+    }
+
+    @Override
     public void loop() {
         robot.teleop();
         telemetry.update();

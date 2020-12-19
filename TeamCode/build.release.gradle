@@ -8,4 +8,6 @@ dependencies {
     implementation (name: 'tensorflow-lite-0.0.0-nightly', ext:'aar')
 
     implementation project(':FtcDashboard')
+    implementation 'org.openftc:easyopencv:1.4.2'
+
 }
